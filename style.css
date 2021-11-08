@@ -1,4 +1,7 @@
 .koru{
   height:100%;
-  background-color: green;
+}
+
+.bg {
+  background-image: url("Fern.jpg");
 }
