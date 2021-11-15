@@ -58,4 +58,12 @@ const hamburger = document.querySelector(".ham");
  hamburger.addEventListener('click', () => {  
   hamburger.classList.toggle("change")  
   navsub.classList.toggle("nav-change")  
- });  
+ });
+
+function myFunction() {
+    var firstname = document.getElementById("firstname").value;
+    var lastname = document.getElementById("lastname").value;
+    var email = document.getElementById("email"). value;
+    var message = "Thank you " + firstname + "" + lastname +". We will send an email to" + email +" about further details"; var agree = document.getElementById("agree").checked; if (firstname == "" || lastname == "" || email == "" || agree == false) { alert('Please make sure you have entered your full name, email address and you agree to our terms of service.')} else {alert(message);
+        }
+}  
